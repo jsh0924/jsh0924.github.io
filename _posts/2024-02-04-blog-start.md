@@ -135,7 +135,7 @@ Ctrl + F 로 <span style="color: MediumOrchid">ct-language</span> 을 찾아 dis
 ![폰트 크기 조절](https://jsh0924.github.io/assets/images/posts/240204_8.png)
 
 블로그의 기본 폰트 크기가 작게 느껴져서 크기도 변경했다.
-바로 위와 같은 파일에서 바로 밑, $base-font-size 에서 <span style="color: Tomato">px</span> 앞의 숫자를 수정하면 된다.
+바로 위와 같은 파일에서 바로 밑, $base-font-size 에서 <span style="color: MediumOrchid">px</span> 앞의 숫자를 수정하면 된다.
 평균적으로 보기 편하다고 생각하는 폰트 크기는 15 ~ 16 px 이다. 나는 평균보다 조금 더 키운 셈.
 
 <br>
