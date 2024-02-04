@@ -171,7 +171,8 @@ body {
 }
 
 .ct-language {
-  display: inline-block;
+  // display: inline-block;
+  display: none;
   position: relative;
   background-color: #fefefe2b;
   padding: 3px 10px;
