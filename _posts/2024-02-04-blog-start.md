@@ -40,7 +40,7 @@ tags: [git, git 블로그, yat theme]
 
 조금만 밑으로 내리면 블로그 타이틀 등 수정할 곳이 보인다.
 보이지 않으면 앞의 #을 지워 주석을 해제하면 된다.
-참고로 <span style="color: DarkTurquoise">content_width</span> 부분은 콘텐츠 가로길이인데, 설정해 봤지만 차이를 잘 모르겠다...?
+참고로 <span style="color: DarkTurquoise;">content_width</span> 부분은 콘텐츠 가로길이인데, 설정해 봤지만 차이를 잘 모르겠다...?
 
 
 
@@ -58,16 +58,16 @@ tags: [git, git 블로그, yat theme]
 
 ![config.yml 수정할 곳 3](https://jsh0924.github.io/assets/images/posts/240204_4.png)
 
-저녁 시간대 (오후 7시) 부터는 자동으로 다크모드가 적용된다. 신경쓰이면 <span style="color: DarkTurquoise">night_mode</span> 설정을 건드리자. off로 설정하면 상시 라이트모드가 된다.
+저녁 시간대 (오후 7시) 부터는 자동으로 다크모드가 적용된다. 신경쓰이면 <span style="color: DarkTurquoise;">night_mode</span> 설정을 건드리자. off로 설정하면 상시 라이트모드가 된다.
 
 
 
-내려가서 <span style="color: DarkTurquoise">defaults</span> 부터는 상단의 헤더 부분이다.
+내려가서 <span style="color: DarkTurquoise;">defaults</span> 부터는 상단의 헤더 부분이다.
 
 ![config.yml 수정할 곳 3_1](https://jsh0924.github.io/assets/images/posts/240204_4_1.png)
 
-<span style="color: DarkTurquoise">heading : </span>타이틀
-<span style="color: DarkTurquoise">subheading : </span>서브 타이틀
-<span style="color: DarkTurquoise">banner : </span>배경 이미지
+<span style="color: DarkTurquoise;">heading : </span>타이틀
+<span style="color: DarkTurquoise;">subheading : </span>서브 타이틀
+<span style="color: DarkTurquoise;">banner : </span>배경 이미지
 
-만약 기본 배경 이미지를 사용하고 싶다면, banner : <span style="color: DarkSeaGreen">"/assets/images/banners/home.png"</span> 으로 코드를 변경하자.
+만약 기본 배경 이미지를 사용하고 싶다면, banner : <span style="color: DarkSeaGreen;">"/assets/images/banners/home.png"</span> 으로 코드를 변경하자.
