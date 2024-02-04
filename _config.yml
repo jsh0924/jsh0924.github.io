@@ -157,7 +157,7 @@ night_mode: "off"
 # Page default value
 defaults:
   home:
-    heading: "각오보다 더 중요한 것은 실행"
+    heading: "각오보다 더 중요한 것은 실행이다"
     subheading: "공부 되돌아보기"
     banner: "/assets/images/banners/banner-img.png"
 
