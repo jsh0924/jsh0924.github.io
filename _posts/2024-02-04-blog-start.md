@@ -70,4 +70,4 @@ tags: [git, git 블로그, yat theme]
 <span style="color: DarkTurquoise;">subheading : </span>서브 타이틀
 <span style="color: DarkTurquoise;">banner : </span>배경 이미지
 
-만약 기본 배경 이미지를 사용하고 싶다면, banner : <span style="color: DarkSeaGreen;">"/assets/images/banners/home.png"</span> 으로 코드를 변경하자.
+만약 기본 배경 이미지를 사용하고 싶다면, <span style="color: DarkTurquoise;">banner : </span><span style="color: DarkSeaGreen;">"/assets/images/banners/home.png"</span> 으로 코드를 변경하자.
