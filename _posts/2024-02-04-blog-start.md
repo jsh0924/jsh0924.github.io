@@ -18,12 +18,13 @@ tags: [git, git 블로그, yat theme]
 
 😢
 
-<br>
 나름 프론트 경력 7년차이니만큼 스스로 해결하기로 결심했다...💔<br>
 참고로 영어는 쥐약이니 번역기 돌려가며 진행했음을 알아두길 바란다😅
 
 
+
 - - -
+
 
 
 일단 로컬에서 username.github.io 폴더에 위치한 config.yml을 연다.
@@ -38,4 +39,35 @@ tags: [git, git 블로그, yat theme]
 ![config.yml 수정할 곳 1](https://jsh0924.github.io/assets/images/posts/240204_2.png)
 
 조금만 밑으로 내리면 블로그 타이틀 등 수정할 곳이 보인다.
-참고로 <span color: DarkTurquoise>content_width</span> 부분은 콘텐츠 가로길이인데, 설정해 봤지만 차이를 잘 모르겠다...?
+보이지 않으면 앞의 #을 지워 주석을 해제하면 된다.
+참고로 <span style="color: DarkTurquoise">content_width</span> 부분은 콘텐츠 가로길이인데, 설정해 봤지만 차이를 잘 모르겠다...?
+
+
+
+
+![config.yml 수정할 곳 2](https://jsh0924.github.io/assets/images/posts/240204_3.png)
+
+기본 언어는 한국어로 설정했다. 참고로 이거,
+
+![config.yml 수정할 곳 2_1](https://jsh0924.github.io/assets/images/posts/240204_3_1.png)
+
+이 부분이다. 개인적으로는 거슬리는 기능이어서 숨김처리 했다. 어떻게 했는지는 잠시 뒤에 설명한다.
+
+
+
+
+![config.yml 수정할 곳 3](https://jsh0924.github.io/assets/images/posts/240204_4.png)
+
+저녁 시간대 (오후 7시) 부터는 자동으로 다크모드가 적용된다. 신경쓰이면 <span style="color: DarkTurquoise">night_mode</span> 설정을 건드리자. off로 설정하면 상시 라이트모드가 된다.
+
+
+
+내려가서 <span style="color: DarkTurquoise">defaults</span> 부터는 상단의 헤더 부분이다.
+
+![config.yml 수정할 곳 3_1](https://jsh0924.github.io/assets/images/posts/240204_4_1.png)
+
+<span style="color: DarkTurquoise">heading : </span>타이틀
+<span style="color: DarkTurquoise">subheading : </span>서브 타이틀
+<span style="color: DarkTurquoise">banner : </span>배경 이미지
+
+만약 기본 배경 이미지를 사용하고 싶다면, banner : <span style="color: DarkSeaGreen">"/assets/images/banners/home.png"</span> 으로 코드를 변경하자.
