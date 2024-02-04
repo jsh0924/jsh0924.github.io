@@ -38,4 +38,4 @@ tags: [git, git 블로그, yat theme]
 ![config.yml 수정할 곳 1](https://jsh0924.github.io/assets/images/posts/240204_2.png)
 
 조금만 밑으로 내리면 블로그 타이틀 등 수정할 곳이 보인다.
-참고로 <span color="DarkTurquoise">content_width</span> 부분은 콘텐츠 가로길이인데, 설정해 봤지만 차이를 잘 모르겠다...?
+참고로 <span color: DarkTurquoise>content_width</span> 부분은 콘텐츠 가로길이인데, 설정해 봤지만 차이를 잘 모르겠다...?
