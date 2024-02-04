@@ -26,8 +26,20 @@ tags: [git, git 블로그, yat theme]
 - - -
 
 
+## 목차
 
-일단 로컬에서 username.github.io 폴더에 위치한 config.yml을 연다.
+1. [기본 설정](#1.-기본-설정)
+2. [카테고리 수정](#2.-카테고리-수정)
+3. [언어 선택 버튼 없애기](#3.-언어-선택-버튼-없애기)
+
+<br>
+
+- - -
+
+
+### 1. 기본 설정
+
+일단 로컬에서 username.github.io 폴더에 위치한 \_config.yml을 연다.
 
 ![config.yml 서문](https://jsh0924.github.io/assets/images/posts/240204_1.png)
 
@@ -43,7 +55,7 @@ tags: [git, git 블로그, yat theme]
 참고로 <span style="color: DarkTurquoise;">content_width</span> 부분은 콘텐츠 가로길이인데, 설정해 봤지만 차이를 잘 모르겠다...?
 
 
-
+<br>
 
 ![config.yml 수정할 곳 2](https://jsh0924.github.io/assets/images/posts/240204_3.png)
 
@@ -54,7 +66,7 @@ tags: [git, git 블로그, yat theme]
 이 부분이다. 개인적으로는 거슬리는 기능이어서 숨김처리 했다. 어떻게 했는지는 잠시 뒤에 설명한다.
 
 
-
+<br>
 
 ![config.yml 수정할 곳 3](https://jsh0924.github.io/assets/images/posts/240204_4.png)
 
@@ -66,8 +78,32 @@ tags: [git, git 블로그, yat theme]
 
 ![config.yml 수정할 곳 3_1](https://jsh0924.github.io/assets/images/posts/240204_4_1.png)
 
-<span style="color: DarkTurquoise;">heading : </span>타이틀
-<span style="color: DarkTurquoise;">subheading : </span>서브 타이틀
+<span style="color: DarkTurquoise;">heading : </span>타이틀<br>
+<span style="color: DarkTurquoise;">subheading : </span>서브 타이틀<br>
 <span style="color: DarkTurquoise;">banner : </span>배경 이미지
 
-만약 기본 배경 이미지를 사용하고 싶다면, <span style="color: DarkTurquoise;">banner : </span><span style="color: DarkSeaGreen;">"/assets/images/banners/home.png"</span> 으로 코드를 변경하자.
+만약 기본 배경 이미지를 사용하고 싶다면, <span style="color: DarkTurquoise;">banner : </span><span style="color: MediumSeaGreen;">"/assets/images/banners/home.jpeg"</span> 으로 코드를 변경하자.
+
+
+<br>
+
+### 2. 카테고리 수정
+
+![카테고리 위치](https://jsh0924.github.io/assets/images/posts/240204_5.png)
+
+로컬에서 username.github.io/\_site 경로로 들어가면 나오는 폴더들이 카테고리이다. 적당히 손봐주자.
+
+
+<br>
+
+### 3. 언어 선택 버튼 없애기
+
+로컬에서 username.github.io/**\_sass/misc/google-translate.scss** 파일을 연다.
+
+![언어 선택 버튼 위치](https://jsh0924.github.io/assets/images/posts/240204_6.png)
+
+Ctrl + F 로 <span style="color: MediumOrchid">ct-language</span> 을 찾아 display 코드를 inline-block 에서 <span style="color: MediumOrchid">none</span> 으로 바꿔주면 된다. 나처럼 본래 css는 주석을 걸고 그 밑에 새 css를 추가하는 걸 추천한다.
+
+
+<br>
+
