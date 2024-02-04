@@ -28,9 +28,13 @@ tags: [git, git 블로그, yat theme]
 
 ## 목차
 
-1. [기본 설정](#1.-기본-설정)
-2. [카테고리 수정](#2.-카테고리-수정)
-3. [언어 선택 버튼 없애기](#3.-언어-선택-버튼-없애기)
+[1. 기본 설정](#1.-기본-설정)
+[2. 카테고리 수정](#2.-카테고리-수정)
+[3. 언어 선택 버튼 없애기](#3.-언어-선택-버튼-없애기)
+[4. 폰트 변경하기](#4.-폰트-변경하기)
+[5. 폰트 크기 변경하기](#5.-폰트-크기-변경하기)
+[6. 타이틀 버튼 자간 조절하기](#6.-타이틀-버튼-자간-조절하기)
+[7. 포스트 서브타이틀 폰트 두께 조절하기](#7.-포스트-서브타이틀-폰트-두께-조절하기)
 
 <br>
 
@@ -106,4 +110,53 @@ Ctrl + F 로 <span style="color: MediumOrchid">ct-language</span> 을 찾아 dis
 
 
 <br>
+
+### 4. 폰트 변경하기
+
+일단 내가 사용하는 폰트는 [Pretendard](https://github.com/orioncactus/pretendard) 폰트와 [Poppins](https://fonts.google.com/specimen/Poppins?query=Poppins) 폰트이다. Pretendard 폰트는 신이야!
+
+사용하고 싶은 웹 폰트의 import 소스 코드를 복사하여 username.github.io/**assets/css/main.scss** 파일을 연다.
+
+![폰트들 1](https://jsh0924.github.io/assets/images/posts/240204_7.png)
+
+맨 밑에 붙여넣고
+
+![폰트들 2](https://jsh0924.github.io/assets/images/posts/240204_7_1.png)
+
+로컬에서 username.github.io/**\_sass/yat.scss** 파일을 열어 맨 앞에 폰트명을 추가한다.
+참고로 영문 폰트를 앞에, 한글 폰트를 그 뒤에 작성하면 영문 폰트 먼저 영어에 적용되고, 한글 폰트는 한글에만 적용된다.
+
+<br>
+
+### 5. 폰트 크기 변경하기
+
+![폰트 크기 조절](https://jsh0924.github.io/assets/images/posts/240204_8.png)
+
+블로그의 기본 폰트 크기가 작게 느껴져서 크기도 변경했다.
+바로 위와 같은 파일에서 바로 밑, $base-font-size 에서 <span style="color: Tomato">px</span> 앞의 숫자를 수정하면 된다.
+평균적으로 보기 편하다고 생각하는 폰트 크기는 15 ~ 16 px 이다. 나는 평균보다 조금 더 키운 셈.
+
+<br>
+
+### 6. 타이틀 버튼 자간 조절하기
+
+![변경 전](https://jsh0924.github.io/assets/images/posts/240204_9_1.png)<br>
+![변경 후](https://jsh0924.github.io/assets/images/posts/240204_9.png)<br>
+
+위가 조절 전, 아래가 조절 후이다.
+
+로컬에서 username.github.io/**\_sass/yat/\_layout.scss** 파일을 열어 <span style="color: MediumOrchid">site-brand-inner</span> 클래스를 찾아 **letter-spacing** 의 값을 0 으로 바꾸면 된다.
+
+<br>
+
+### 7. 포스트 서브타이틀 폰트 두께 조절하기
+
+![포스트 서브타이틀 1](https://jsh0924.github.io/assets/images/posts/240204_10.png)
+
+혹시 서브타이틀의 두께가 너무 얇다고 생각되는가? 일단 난 그렇다.😄
+위와 같은 \_layout_scss 파일에서 Ctrl + F 를 눌러 <span style="color: MediumOrchid">lighter</span> 를 검색하여 200 혹은 300 ~ 900 으로 변경한다.
+
+![포스트 서브타이틀 2](https://jsh0924.github.io/assets/images/posts/240204_10.png)
+
+Ctrl + F 로 찾는 이유는 해당 코드가 두 군데나 적용되어 있기 때문이다. 만약 서브타이틀 폰트"만" 조절하고 싶다면 <span style="color: MediumOrchid">post-subtitle</span> 클래스의 코드값만 바꾸자.
 
