@@ -184,8 +184,8 @@ defaults:
 # paginate: 5
 
 # Disqus comments
-disqus:
-  shortname: "jsh0924-github-io"
+# disqus:
+#   shortname: "jsh0924-github-io"
 
 # Gitment comments
 # gitment:
