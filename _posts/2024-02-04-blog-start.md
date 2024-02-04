@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: yat theme 적용 및 수정하기
 subtitle: git blog jekyll 테마 수정
 categories: information
