@@ -159,7 +159,7 @@ defaults:
   home:
     heading: "각오보다 더 중요한 것은 실행"
     subheading: "공부 되돌아보기"
-    banner: "/assets/images/banners/banner-image.jpg"
+    banner: "/assets/images/banners/banner-img.png"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
