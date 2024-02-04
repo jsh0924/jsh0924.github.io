@@ -153,10 +153,19 @@ Ctrl + F 로 <span style="color: MediumOrchid">ct-language</span> 을 찾아 dis
 
 ![포스트 서브타이틀 1](https://jsh0924.github.io/assets/images/posts/240204_10.png)
 
-혹시 서브타이틀의 두께가 너무 얇다고 생각되는가? 일단 난 그렇다.😄
+혹시 서브타이틀의 두께가 너무 얇다고 생각되는가? 일단 난 그렇다😄
 위와 같은 \_layout_scss 파일에서 Ctrl + F 를 눌러 <span style="color: MediumOrchid">lighter</span> 를 검색하여 200 혹은 300 ~ 900 으로 변경한다.
 
 ![포스트 서브타이틀 2](https://jsh0924.github.io/assets/images/posts/240204_10.png)
 
 Ctrl + F 로 찾는 이유는 해당 코드가 두 군데나 적용되어 있기 때문이다. 만약 서브타이틀 폰트"만" 조절하고 싶다면 <span style="color: MediumOrchid">post-subtitle</span> 클래스의 코드값만 바꾸자.
 
+
+<br>
+
+- - -
+
+<br>
+
+가볍게 시작했는데 정말 오래 걸렸다😑
+더 궁금한 것이 있다면 코멘트를 남기세요. 아는 한도 내에서 (주로 css이지만!) 성심성의껏 답변하겠습니다😙
