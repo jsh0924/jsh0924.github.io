@@ -792,3 +792,18 @@ html {
 #no-posts {
   display: none!important;
 }
+
+
+/*
+  applause button 색상 수정
+*/
+
+.applause-wrap {
+  width: 100%;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.applause-wrap .style-root {
+  fill: #1E90FF; stroke: #1E90FF; color: #1E90FF;
+}
