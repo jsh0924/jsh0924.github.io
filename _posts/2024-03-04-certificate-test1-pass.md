@@ -56,7 +56,7 @@ tags: [잡담, 정보처리기사, 정처기]
 이건 흥달쌤 유튜브로 개념을 싹 익혔다.<br>
 그 이후로 틀리지 않음!!!<br>
 
-![흥달쌤 고마워요](https://jsh0924.github.io/assets/images/posts/240304_2.jpg)
+![흥달쌤 고마워요](https://jsh0924.github.io/assets/images/posts/240304_2.png)
 
 <br>
 
