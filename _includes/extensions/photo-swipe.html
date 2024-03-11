@@ -27,7 +27,9 @@
       data-height="${imgEl.getAttribute("height") || imgEl.height * 2}"
       data-caption="${imgEl.getAttribute("caption") || imgEl.alt}"
       target="_blank">
+      <span class="img_line">
       ${imgEl.outerHTML}
+      </span>
     </a>`;
     });
 
