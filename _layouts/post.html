@@ -8,8 +8,8 @@ sidebar:
 ---
 <script>
   $(document).ready(function(){
-    $('.photo-swipe img').on('wrap',{
-      $(this).wrap('<span></span>');
+    $('.photo-swipe').on('ready',{
+      $('.photo-swipe img').wrap('<span></span>');
     })
   })
 </script>
