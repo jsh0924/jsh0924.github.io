@@ -156,9 +156,12 @@ code {
 }
 
 pre {
-  overflow-x: auto;
+  // overflow-x: auto;
   position: relative;
   background-color: #f0f0f0;
+  font-family: inherit;
+  font-size: 13px;
+  white-space: pre-line;
 
   > code {
     display: inline-block;
