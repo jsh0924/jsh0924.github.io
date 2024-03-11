@@ -404,7 +404,7 @@ html {
   .post-content {
     margin-bottom: $spacing-unit;
     overflow-wrap: normal;
-    word-wrap: normal;
+    word-wrap: break-word;
     word-break: normal;
 
     h2 {
