@@ -7,8 +7,10 @@ sidebar:
   - article-menu
 ---
 <script>
-  $(window).ready(function(){
-    $('.photo-swipe img').wrap('<span></span>');
+  $(document).ready(function(){
+    $('.photo-swipe img').on('wrap',{
+      $(this).wrap('<span></span>');
+    })
   })
 </script>
 <div class="post">
