@@ -6,6 +6,11 @@ hidden: []
 sidebar:
   - article-menu
 ---
+<script>
+  $(document).ready(function(){
+    $('.photo-swipe img').wrap($('<span class="img_line"></span>'));
+  })
+</script>
 <div class="post">
   <section>
 
@@ -97,9 +102,4 @@ sidebar:
     {%- endif -%}
 
   </section>
-  <script>
-    $(document).ready(function(){
-      $('.photo-swipe img').wrap('<span class="img_line"></span>');
-    })
-  </script>
 </div>
