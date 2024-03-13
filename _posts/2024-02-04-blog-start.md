@@ -115,7 +115,7 @@ Ctrl + F 로 <span style="color: MediumOrchid">ct-language</span> 을 찾아 dis
 
 ### 4. 폰트 변경하기
 
-일단 내가 사용하는 폰트는 [Pretendard](https://github.com/orioncactus/pretendard) 폰트와 [Poppins](https://fonts.google.com/specimen/Poppins?query=Poppins) 폰트이다. Pretendard 폰트는 신이야!
+일단 내가 사용하는 폰트는 [Pretendard](https://github.com/orioncactus/pretendard) 폰트와 ~~[Poppins](https://fonts.google.com/specimen/Poppins?query=Poppins) 폰트이다.~~ [Questrial](https://fonts.google.com/specimen/Questrial?query=Questrial) 폰트로 변경하였다. Pretendard 폰트는 신이야!
 
 사용하고 싶은 웹 폰트의 import 소스 코드를 복사하여 username.github.io/**assets/css/main.scss** 파일을 연다.
 
