@@ -195,33 +195,6 @@ defaults:
 #   client_secret: "Your client secret"
 #   redirect_uri: "Your redirect url"   # If you use a custom domain name
 
-# Set which comment system to use
-comments:
-  # 'disqus' / 'giscus' / 'utterances' are available
-  provider:            giscus
-
-# You must install utterances github app before use.(https://github.com/apps/utterances)
-# Make sure all variables are set properly. Check below link for detail.
-# https://utteranc.es/
-utterances:
-  repo:                "jsh0924/jsh0924.github.io"
-  issue-term:          "pathname"
-  label:               "Comments"
-  theme:               "preferred_color_scheme"
-
-# You must install giscus github app before use.(https://github.com/apps/giscus)
-# Make sure all variables are set properly. Check below link for detail.
-# https://giscus.vercel.app/
-giscus:
-  repo:                "jsh0924/jsh0924.github.io"
-  repo-id:             "[your-repo-id]"
-  category:            "Comments"
-  category-id:         "[your-category-id]"
-  mapping:             "pathname"
-  reaction-enabled:    "1"
-  theme:               "preferred_color_scheme"
-  crossorigin:         "anonymous"
-
 # Utterances comments
 # See https://utteranc.es/
 # set follow_site_theme true to make utterances' theme follow the site's
