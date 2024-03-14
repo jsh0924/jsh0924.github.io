@@ -9,8 +9,16 @@ tags: [글로벌인, 학원, IT, javascript]
 
 #### 1\. 자바스크립트
 
-| <strong>변수명</strong> | const | let | var |
-| <strong>유형</strong> | 숫자형 | 문자형 | 자료형 |
+<table>
+	<tbody>
+		<tr>
+			<th class="th">변수명</th><td>const</td><td>let</td><td>var</td>
+		</tr>
+		<tr>
+			<th class="th">유형</th><td>숫자형</td><td>문자형</td><td>자료형</td>
+		</tr>
+	</tbody>
+</table>
 
 while문과 do while문의 차이점 : 조건을 보고 돌리냐, 조건을 보지 않고 돌리냐의 차이  
 컴파일러 존재❌ 라인별로(인터프리터) 실행  
