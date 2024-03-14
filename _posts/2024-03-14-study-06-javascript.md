@@ -203,6 +203,8 @@ while(조건식) {
   
 <br>
 
+### 7-3. do-while문
+
 do-while문 &#10140; 무조건 한 번 실행 후 조건식 실행  
 ````javascript
 do {
@@ -210,4 +212,15 @@ do {
 } while(조건식);
 ````
 <br>
-
+  
+- - -
+<br>
+  
+![do-while문 예시1](https://jsh0924.github.io/assets/images/posts/240314_26.png)<br>
+![do-while문 결과1](https://jsh0924.github.io/assets/images/posts/240314_27.png)<br>
+  
+- - -
+<br>
+  
+![do-while문 예시2](https://jsh0924.github.io/assets/images/posts/240314_28.png)<br>
+![do-while문 결과2](https://jsh0924.github.io/assets/images/posts/240314_29.png)<br>

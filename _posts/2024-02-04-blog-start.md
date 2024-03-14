@@ -43,7 +43,7 @@ tags: [git, git 블로그, yat theme]
 
 <br>
 
-### 1. 기본 설정
+## 1. 기본 설정
 
 일단 로컬에서 username.github.io 폴더에 위치한 \_config.yml을 연다.
 
@@ -93,7 +93,7 @@ tags: [git, git 블로그, yat theme]
 
 <br>
 
-### 2. 카테고리 수정
+## 2. 카테고리 수정
 
 ![카테고리 위치](https://jsh0924.github.io/assets/images/posts/240204_5.png)
 
@@ -102,7 +102,7 @@ tags: [git, git 블로그, yat theme]
 
 <br>
 
-### 3. 언어 선택 버튼 없애기
+## 3. 언어 선택 버튼 없애기
 
 로컬에서 username.github.io/**\_sass/misc/google-translate.scss** 파일을 연다.
 
@@ -113,7 +113,7 @@ Ctrl + F 로 <span style="color: MediumOrchid">ct-language</span> 을 찾아 dis
 
 <br>
 
-### 4. 폰트 변경하기
+## 4. 폰트 변경하기
 
 일단 내가 사용하는 폰트는 [Pretendard](https://github.com/orioncactus/pretendard) 폰트와 ~~[Poppins](https://fonts.google.com/specimen/Poppins?query=Poppins) 폰트이다.~~ [Questrial](https://fonts.google.com/specimen/Questrial?query=Questrial) 폰트로 변경하였다. Pretendard 폰트는 신이야!
 
@@ -130,7 +130,7 @@ Ctrl + F 로 <span style="color: MediumOrchid">ct-language</span> 을 찾아 dis
 
 <br>
 
-### 5. 폰트 크기 변경하기
+## 5. 폰트 크기 변경하기
 
 ![폰트 크기 조절](https://jsh0924.github.io/assets/images/posts/240204_8.png)
 
@@ -140,7 +140,7 @@ Ctrl + F 로 <span style="color: MediumOrchid">ct-language</span> 을 찾아 dis
 
 <br>
 
-### 6. 타이틀 버튼 자간 조절하기
+## 6. 타이틀 버튼 자간 조절하기
 
 ![변경 전](https://jsh0924.github.io/assets/images/posts/240204_9_1.png)<br>
 ![변경 후](https://jsh0924.github.io/assets/images/posts/240204_9.png)<br>
@@ -151,7 +151,7 @@ Ctrl + F 로 <span style="color: MediumOrchid">ct-language</span> 을 찾아 dis
 
 <br>
 
-### 7. 포스트 서브타이틀 폰트 두께 조절하기
+## 7. 포스트 서브타이틀 폰트 두께 조절하기
 
 ![포스트 서브타이틀 1](https://jsh0924.github.io/assets/images/posts/240204_10.png)
 
