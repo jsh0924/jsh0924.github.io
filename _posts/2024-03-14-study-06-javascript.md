@@ -25,6 +25,13 @@ javascript &#10140; head, body 상관없이 작성 가능
 
 실행 순서 : 헤더 &#10140; 외부 파일 &#10140; 내부 스크립트 &#10140; 내부 태그  
   
+<br>
+- - -
+<br>
+  
+![실행 순서 예시](https://jsh0924.github.io/assets/images/posts/240314_1.png)<br>
+![실행 순서 예시](https://jsh0924.github.io/assets/images/posts/240314_2.png)<br>
+![실행 순서](https://jsh0924.github.io/assets/images/posts/240314_3.gif)<br>
 
 #### 2\. 변수
 
@@ -63,14 +70,21 @@ javascript &#10140; head, body 상관없이 작성 가능
 기본적으로 지역 변수 호출.  
 전역 변수에 접근하려면 **this.전역변수**  
   
-NaN : 숫자가 아님을 의미  
+NaN &#10140; 숫자가 아님을 의미  
   
 <pre>
 	전역변수 선언에 대해 알았다! var 없이 선언하면 전역변수라니!!! 유레카!😮  
 	this.전역변수도 처음 앎. 당연함 배운 적이 없음🤔  
 </pre>
   
+<br>
+- - -
+<br>
+
+![변수 예시](https://jsh0924.github.io/assets/images/posts/240314_4.png)<br>
+![변수 결과](https://jsh0924.github.io/assets/images/posts/240314_5.png)<br>
   
+
 #### 3\. 식별자
 
 생성 규칙
@@ -99,8 +113,41 @@ NaN : 숫자가 아님을 의미
 ?: &#10140; 조건 ? 참 : 거짓  
 i % 2 = 0 ? "짝수" : "홀수";  
   
+
+#### 6\. 연산
+
+![연산 예시1](https://jsh0924.github.io/assets/images/posts/240314_6.png)<br>
+![연산 결과1](https://jsh0924.github.io/assets/images/posts/240314_7.png)<br>
+
+<br>
+- - -
+<br>
+
+![연산 예시2](https://jsh0924.github.io/assets/images/posts/240314_8.png)<br>
+![연산 결과2](https://jsh0924.github.io/assets/images/posts/240314_9.png)<br>
+
+<br>
+- - -
+<br>
+
+![연산 예시3](https://jsh0924.github.io/assets/images/posts/240314_10.png)<br>
+![연산 결과3](https://jsh0924.github.io/assets/images/posts/240314_11.png)<br>
+
+<br>
+- - -
+<br>
+
+![연산 예시4](https://jsh0924.github.io/assets/images/posts/240314_12.png)<br>
+![연산 결과4](https://jsh0924.github.io/assets/images/posts/240314_13.png)<br>
+
+<br>
+- - -
+<br>
+
+![연산 예시5](https://jsh0924.github.io/assets/images/posts/240314_14.png)<br>
+![연산 결과5](https://jsh0924.github.io/assets/images/posts/240314_15.gif)<br>
   
-#### 6\. 반복문
+#### 7\. 반복문
 
 for문 &#10140; 시작값과 종료값이 명확할 때 사용  
 ````javascript
@@ -109,7 +156,33 @@ for(초기문; 조건식; 반복 후 작업) {
 }
 ````
 <br>
+
+<br>
+- - -
+<br>
+
+![for문 예시1](https://jsh0924.github.io/assets/images/posts/240314_16.png)<br>
+![for문 결과1](https://jsh0924.github.io/assets/images/posts/240314_17.png)<br>
+
+<br>
+- - -
+<br>
+
+![for문 예시2](https://jsh0924.github.io/assets/images/posts/240314_18.png)<br>
+![for문 결과2](https://jsh0924.github.io/assets/images/posts/240314_19.gif)<br>
+
+<br>
+- - -
+<br>
+
+![for문 예시3](https://jsh0924.github.io/assets/images/posts/240314_20.png)<br>
+![for문 결과3](https://jsh0924.github.io/assets/images/posts/240314_21.png)<br>
+<br>
   
+<br>
+- - -
+<br>
+    
 while문 &#10140; 종료값이 명확하지 않을 때  
 ````javascript
 while(조건식) {
@@ -118,6 +191,22 @@ while(조건식) {
 ````
 <br>
   
+<br>
+- - -
+<br>
+  
+![while문 예시1](https://jsh0924.github.io/assets/images/posts/240314_22.png)<br>
+![while문 결과1](https://jsh0924.github.io/assets/images/posts/240314_23.png)<br>
+  
+<br>
+- - -
+<br>
+  
+![while문 예시2](https://jsh0924.github.io/assets/images/posts/240314_24.png)<br>
+![while문 결과2](https://jsh0924.github.io/assets/images/posts/240314_25.png)<br>
+  
+<br>
+
 do-while문 &#10140; 무조건 한 번 실행 후 조건식 실행  
 ````javascript
 do {
@@ -125,3 +214,4 @@ do {
 } while(조건식);
 ````
 <br>
+
