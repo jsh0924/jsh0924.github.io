@@ -7,7 +7,7 @@ categories: study
 tags: [글로벌인, 학원, IT, javascript]
 ---
 
-# 1\. 자바스크립트
+## 1\. 자바스크립트
 
 while문과 do while문의 차이점 : 조건을 보고 돌리냐, 조건을 보지 않고 돌리냐의 차이  
 컴파일러 존재❌ 라인별로(인터프리터) 실행  
@@ -33,7 +33,7 @@ javascript &#10140; head, body 상관없이 작성 가능
 ![실행 순서 예시](https://jsh0924.github.io/assets/images/posts/240314_2.png)<br>
 ![실행 순서](https://jsh0924.github.io/assets/images/posts/240314_3.gif)<br>
 
-# 2\. 변수
+## 2\. 변수
 
 <table>
 	<thead>
@@ -85,7 +85,7 @@ NaN &#10140; 숫자가 아님을 의미
 ![변수 결과](https://jsh0924.github.io/assets/images/posts/240314_5.png)<br>
   
 
-# 3\. 식별자
+## 3\. 식별자
 
 생성 규칙
 - 첫 문자 : 숫자 불가능. 알파벳, 언더스코어(_\), $문자 가능
@@ -94,7 +94,7 @@ NaN &#10140; 숫자가 아님을 의미
 - 예약어 불가
   
   
-# 4\. 비트 연산자
+## 4\. 비트 연산자
 
 & &#10140; 논리합, 같으면 1, 다르면 0  
 | &#10140; or, 논리곱, 둘 중 하나라도 1이 있으면 1  
@@ -102,7 +102,7 @@ NaN &#10140; 숫자가 아님을 의미
 ~ &#10140; 부정, 0은 1로, 1은 0으로 변경  
   
   
-# 5\. 시프트 연산자 
+## 5\. 시프트 연산자 
 
 \>> &#10140; 10 \>> 2 == 2  
 10의 이진수 1010가 오른쪽으로 두 칸 이동, 10 사라짐  
@@ -114,7 +114,7 @@ NaN &#10140; 숫자가 아님을 의미
 i % 2 = 0 ? "짝수" : "홀수";  
   
 
-# 6\. 연산
+## 6\. 연산
 
 ![연산 예시1](https://jsh0924.github.io/assets/images/posts/240314_6.png)<br>
 ![연산 결과1](https://jsh0924.github.io/assets/images/posts/240314_7.png)<br>
@@ -143,9 +143,9 @@ i % 2 = 0 ? "짝수" : "홀수";
 ![연산 예시5](https://jsh0924.github.io/assets/images/posts/240314_14.png)<br>
 ![연산 결과5](https://jsh0924.github.io/assets/images/posts/240314_15.gif)<br>
   
-# 7\. 반복문
+## 7\. 반복문
   
-## 7-1. for문
+### 7-1. for문
 
 for문 &#10140; 시작값과 종료값이 명확할 때 사용  
 ````javascript
@@ -178,7 +178,7 @@ for(초기문; 조건식; 반복 후 작업) {
 - - -
 <br>
   
-## 7-2. while문
+### 7-2. while문
 
 while문 &#10140; 종료값이 명확하지 않을 때  
 ````javascript
