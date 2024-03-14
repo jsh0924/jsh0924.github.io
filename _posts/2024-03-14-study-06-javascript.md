@@ -118,29 +118,25 @@ i % 2 = 0 ? "짝수" : "홀수";
 
 ![연산 예시1](https://jsh0924.github.io/assets/images/posts/240314_6.png)<br>
 ![연산 결과1](https://jsh0924.github.io/assets/images/posts/240314_7.png)<br>
-
-<br>
+  
 - - -
 <br>
 
 ![연산 예시2](https://jsh0924.github.io/assets/images/posts/240314_8.png)<br>
 ![연산 결과2](https://jsh0924.github.io/assets/images/posts/240314_9.png)<br>
-
-<br>
+  
 - - -
 <br>
 
 ![연산 예시3](https://jsh0924.github.io/assets/images/posts/240314_10.png)<br>
 ![연산 결과3](https://jsh0924.github.io/assets/images/posts/240314_11.png)<br>
-
-<br>
+  
 - - -
 <br>
 
 ![연산 예시4](https://jsh0924.github.io/assets/images/posts/240314_12.png)<br>
 ![연산 결과4](https://jsh0924.github.io/assets/images/posts/240314_13.png)<br>
-
-<br>
+  
 - - -
 <br>
 
@@ -148,6 +144,8 @@ i % 2 = 0 ? "짝수" : "홀수";
 ![연산 결과5](https://jsh0924.github.io/assets/images/posts/240314_15.gif)<br>
   
 #### 7\. 반복문
+  
+###### 7-1. for문
 
 for문 &#10140; 시작값과 종료값이 명확할 때 사용  
 ````javascript
@@ -163,15 +161,13 @@ for(초기문; 조건식; 반복 후 작업) {
 
 ![for문 예시1](https://jsh0924.github.io/assets/images/posts/240314_16.png)<br>
 ![for문 결과1](https://jsh0924.github.io/assets/images/posts/240314_17.png)<br>
-
-<br>
+  
 - - -
 <br>
 
 ![for문 예시2](https://jsh0924.github.io/assets/images/posts/240314_18.png)<br>
 ![for문 결과2](https://jsh0924.github.io/assets/images/posts/240314_19.gif)<br>
-
-<br>
+  
 - - -
 <br>
 
@@ -179,10 +175,11 @@ for(초기문; 조건식; 반복 후 작업) {
 ![for문 결과3](https://jsh0924.github.io/assets/images/posts/240314_21.png)<br>
 <br>
   
-<br>
 - - -
 <br>
-    
+  
+###### 7-2. while문
+
 while문 &#10140; 종료값이 명확하지 않을 때  
 ````javascript
 while(조건식) {
@@ -198,7 +195,6 @@ while(조건식) {
 ![while문 예시1](https://jsh0924.github.io/assets/images/posts/240314_22.png)<br>
 ![while문 결과1](https://jsh0924.github.io/assets/images/posts/240314_23.png)<br>
   
-<br>
 - - -
 <br>
   
