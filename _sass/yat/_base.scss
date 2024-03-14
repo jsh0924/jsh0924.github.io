@@ -252,7 +252,7 @@ table {
 
   tr {
     &:nth-child(even) {
-      background-color: lighten($grey-color-light, 30%);
+      background-color: lighten($grey-color-light, 10%);
     }
   }
 
