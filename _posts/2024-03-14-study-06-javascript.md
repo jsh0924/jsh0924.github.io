@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: [코드리뷰] 별이 빛나는 밤에
+title: 코드리뷰] 별이 빛나는 밤에
 subtitle: code review
 categories: review
 tags: [javascript, review]
