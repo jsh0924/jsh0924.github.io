@@ -36,7 +36,7 @@ tags: [비주얼스튜디오코드, vscode, error]
 ````json
 "file": "${fileDirname}/${fileBasename}"
 ````
-
+<br>
 url, webRoot 코드는 주석처리 하고 file 코드를 붙여넣기한다.  
 ${fileDirname}는 현재 열려있는 파일의 디렉토리이고  
 ${fileBasename}는 현재 열려있는 파일의 확장자이다.  
