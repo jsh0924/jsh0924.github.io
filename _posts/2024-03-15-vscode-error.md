@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: 비주얼 스튜디오 코드 로컬호스트 연결 거부 오류 해결
+title: 비주얼 스튜디오 코드 로컬호스트 연결 거부 오류
 subtitle: vscode
 categories: information
 tags: [비주얼스튜디오코드, vscode, error]
