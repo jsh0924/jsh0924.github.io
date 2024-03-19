@@ -59,3 +59,9 @@ tags: [글로벌인, javascript]
 ![그룹화된 함수](https://jsh0924.github.io/assets/images/posts/240319_15.png)<br>
 ![그룹화된 함수 실행](https://jsh0924.github.io/assets/images/posts/240319_16.gif)<br>
 <br>
+  
+## 5\. 제이쿼리
+
+![제이쿼리](https://jsh0924.github.io/assets/images/posts/240319_17.png)<br>
+  
+<u>jQuery(sayHello)<u> 처음 알았다...!!😯  
