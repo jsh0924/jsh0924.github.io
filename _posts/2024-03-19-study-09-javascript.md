@@ -64,4 +64,4 @@ tags: [글로벌인, javascript]
 
 ![제이쿼리](https://jsh0924.github.io/assets/images/posts/240319_17.png)<br>
   
-<u>jQuery(sayHello)<u> 처음 알았다...!!😯  
+<b>jQuery(sayHello)</b> 처음 알았다...!!😯  
