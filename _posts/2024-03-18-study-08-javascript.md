@@ -1,7 +1,7 @@
 ---
 layout: post
 comments: true
-title: 일본 IT Java 웹개발자 수업 8일차
+title: 일본 IT Java 웹개발자 수업 8일차 - javascript
 subtitle: javascript
 categories: study
 tags: [글로벌인, javascript]
