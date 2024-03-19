@@ -4,7 +4,7 @@ comments: true
 title: 일본 IT Java 웹개발자 수업 8일차
 subtitle: javascript
 categories: study
-tags: [글로벌인, 학원, IT, javascript]
+tags: [글로벌인, javascript]
 ---
 
 ## 1\. 문자열 함수

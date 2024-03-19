@@ -4,7 +4,7 @@ comments: true
 title: 정보처리기사 필기 합격!
 subtitle: 공부한 기록
 categories: daily
-tags: [잡담, 정보처리기사, 정처기]
+tags: [잡담, 정보처리기사]
 ---
 
 <span style="font-size: 27px; font-weight: 600;">정보처리기사 필기시험에 합격했다 🥳🥳🥳</span><br>

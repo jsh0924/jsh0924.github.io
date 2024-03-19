@@ -4,7 +4,7 @@ comments: true
 title: yat theme 적용 및 수정하기
 subtitle: git blog jekyll 테마 수정
 categories: information
-tags: [git, git 블로그, yat theme]
+tags: [git 블로그, yat theme]
 ---
 
 깃 블로그에 적응할 겸 [yat another theme](https://github.com/jeffreytse/jekyll-theme-yat) 수정 과정을 적어보려 한다.

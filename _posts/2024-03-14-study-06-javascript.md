@@ -1,10 +1,10 @@
 ---
 layout: post
 comments: true
-title: 일본 IT Java 웹개발자 수업 6일차
+title: 일본 IT Java 웹개발자 수업 6일차 - javascript
 subtitle: javascript
 categories: study
-tags: [글로벌인, 학원, IT, javascript]
+tags: [글로벌인, javascript]
 ---
 
 ## 1\. 자바스크립트
