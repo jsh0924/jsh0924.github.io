@@ -49,3 +49,22 @@ css와 비슷한 선택자.
 <br>
 
 ## 5\. 회원가입 폼
+
+![회원가입1](https://jsh0924.github.io/assets/images/posts/240320_13.png)<br>
+![회원가입1 스크립트](https://jsh0924.github.io/assets/images/posts/240320_14.png)<br>
+![회원가입1 결과](https://jsh0924.github.io/assets/images/posts/240320_15.gif)<br>
+<br>
+- - -
+<br>
+
+![회원가입2](https://jsh0924.github.io/assets/images/posts/240320_16.png)<br>
+![회원가입2 스크립트](https://jsh0924.github.io/assets/images/posts/240320_17.png)<br>
+![회원가입2 결과](https://jsh0924.github.io/assets/images/posts/240320_18.gif)<br>
+<br>
+radio, checkbox 선택값 구하는 방법이 조금씩 다름을 기억하자.
+  
+<br>
+- - -
+<br>
+<br>
+역시 제이쿼리는 재밌어..ㅋㅋ😁  
