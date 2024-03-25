@@ -9,8 +9,6 @@ tags: [글로벌인, jquery]
 
 ## 1\. bind 함수
 
-bind, on, one 함수
-
 ![bind](https://jsh0924.github.io/assets/images/posts/240322_1.png)<br>
 ![bind 스크립트](https://jsh0924.github.io/assets/images/posts/240322_2.png)<br>
 ![bind 결과](https://jsh0924.github.io/assets/images/posts/240322_3.gif)<br>
