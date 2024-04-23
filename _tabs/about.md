@@ -3,9 +3,6 @@
 icon: fas fa-info-circle
 order: 4
 ---
-
-<h2>About</h2>
-
 <p>
 <b>프론트 경력 7년, 백엔드 지망생의 공부 기록</b>
 </p>
