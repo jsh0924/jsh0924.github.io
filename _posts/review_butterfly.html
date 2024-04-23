@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<script>
+		// for문
+		var i, j, k;
+		
+		for (i = 0; i <= 5; i++) {
+			for (j = 0; j < i; j++) {
+				document.write('⭐');
+			}
+			for (k = 5; k > j; k--) {
+				document.write('⬜');
+			}
+
+			for (j = 5; j > i; j--) {
+				document.write('⬜');
+			}
+			for (k = 0; k < j; k++) {
+				document.write('⭐');
+			}
+			document.write('<br>');
+		}
+
+		for (i = 0; i <= 5; i++) {
+			for (j = 5; j > i; j--) {
+				document.write('⭐');
+			}
+			for (k = 0; k < j; k++) {
+				document.write('⬜');
+			}
+
+			for (j = 0; j < i; j++) {
+				document.write('⬜');
+			}
+			for (k = 5; k > j; k--) {
+				document.write('⭐');
+			}
+			document.write('<br>');
+		}
+	</script>
+</body>
+</html>
