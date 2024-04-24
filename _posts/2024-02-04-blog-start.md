@@ -1,7 +1,7 @@
 ---
 title: yat theme 적용 및 수정하기
-# author: git blog jekyll 테마 수정
 date : 2024-02-04 12:00:00
+comments: true
 categories: [information]
 tags: [git 블로그, yat theme]
 render_with_liquid: false
