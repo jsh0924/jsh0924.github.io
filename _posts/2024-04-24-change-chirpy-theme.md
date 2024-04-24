@@ -1,5 +1,5 @@
 ---
-title: Chirpy 테마 적용
+title: Chirpy theme 적용
 date: 2024-04-24 12:00:00
 comments: true
 categories: [information]
