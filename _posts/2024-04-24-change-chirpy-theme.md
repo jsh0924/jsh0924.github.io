@@ -4,7 +4,7 @@ date: 2024-04-24 12:00:00
 comments: true
 categories: [information]
 tags: [git 블로그, chirpy theme]
-# render_with_liquid: false
+render_with_liquid: false
 ---
 
 첫 포스팅으로 [yat theme 적용 및 수정하기](https://jsh0924.github.io/posts/blog-start/) 글을 작성했었는데, 스스로 검색기능 집어넣고, 뭐 수정하고 하다보니 조잡해져서(ㅋ) 아예 처음부터 검색기능도 있고 깔끔한 테마로 변경하기로 결심했다.  
