@@ -9,7 +9,7 @@ render_with_liquid: false
 
 깃 블로그에 적응할 겸 [yat another theme](https://github.com/jeffreytse/jekyll-theme-yat) 수정 과정을 적어보려 한다.
 
-일단 나는 [Jekyll Themes](http://jekyllthemes.org/) 를 둘러보다가 실용적이면서도 깔끔한 이 테마를 발견했다. 그리고 다른 분들의 글을 보며 깃 블로그 세팅을 한 것처럼, 이 테마에서 불필요한 부분을 어떻게 수정할까 검색해 보았더니...
+일단 나는 <span data-proofer-ignore>[Jekyll Themes](http://jekyllthemes.org/)</span> 를 둘러보다가 실용적이면서도 깔끔한 이 테마를 발견했다. 그리고 다른 분들의 글을 보며 깃 블로그 세팅을 한 것처럼, 이 테마에서 불필요한 부분을 어떻게 수정할까 검색해 보았더니...
 
 **사용법이 많이 나와있지 않아 적용을 포기한다는 글만 나왔다.**
 
