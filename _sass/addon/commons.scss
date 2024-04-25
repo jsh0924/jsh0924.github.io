@@ -706,7 +706,8 @@ $btn-mb: 0.5rem;
   }
 
   #avatar {
-    display: block;
+    // display: block;
+    display: none;
     width: 7rem;
     height: 7rem;
     overflow: hidden;
